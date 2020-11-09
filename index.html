@@ -31,14 +31,14 @@
             <a class="nav-link" href="#">Página Inicial<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Sobre</a>
+            <a class="nav-link internal-link" href="#sobre">Sobre</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Itens
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Iten</a>
+              <a class="dropdown-item internal-link" href="#soundtracks">SoundTracks</a>
               <a class="dropdown-item" href="#">Outro Item</a>
               <div class="dropdown-divider"></div>
               <a class="dropdown-item" href="#">Alguma coisa</a>
@@ -92,14 +92,163 @@
       </div>
     </div>
 
-    <h1>Mais daqui a pouco!</h1>
+    <main>
+      <div id="sobre">
+        <section>
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-sm-6 col-md-3 col-lg-3 d-none d-md-block">
+                <div class="p-4">
+                 <img src="img/Death.png" alt="" class="img-fluid">
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-9 col-lg-9">
+                <div class="p-4">
+                  <h3 class="display-5">Death Stranding</h3>
+                  <p>Do lendário criador Hideo Kojima, chega uma experiência totalmente nova que desafia todos os gêneros. Sam Bridges precisa encarar um mundo transformado pelo Death Stranding. Com os vestígios do nosso futuro em suas mãos, ele embarca em uma jornada para reconstruir o mundo despedaçado passo a passo.	</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-sm-12 col-md-9 col-lg-9">
+                <div class="p-4">
+                  <h3 class="display-5">Valorant</h3>
+                  <p>VALORANT é uma arena global competitiva. Um jogo de tiro tático 5x5 que tem como objetivo plantar ou desarmar a Spike. Os jogadores têm apenas uma vida por rodada, e vence a partida quem ganhar 13 rodadas primeiro. Mais do que armas e munição, VALORANT inclui agentes com habilidades adaptativas, rápidas e letais, que criam oportunidades para que sua mecânica de tiro mostre a que veio.</p>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-3 col-lg-3 d-none d-md-block">
+                <div class="p-4">
+                  <img src="img/Valorant.png" alt="" class="img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-sm-6 col-md-3 col-lg-3 d-none d-md-block">
+                <div class="p-4">
+                  <img src="img/Witcher.png" alt="" class="img-fluid">
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-9 col-lg-9">
+                <div class="p-4">
+                  <h3 class="display-5">Witcher</h3>
+                  <p>Enquanto a guerra assola todos os Reinos do Norte, você enfrenta o maior conflito de sua vida: ir em busca da criança da profecia, uma arma senciente capaz de alterar o mundo.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      
+        <div id="soundtracks">
+          <h1>SoundTracks</h1>
+          <p style="color: #8F98A0;">Até agora <span data-toggle="counter-up">6</span> musicas cadastradas</p>
+        </div>
+        <div class="playlist">
+
+          <div class="card">
+            <img class="card-img-top" src="https://steamcdn-a.akamaihd.net/steam/apps/292030/header.jpg?t=1602588729" alt="Imagem de capa do card">
+            <div class="card-body">
+              <h5 class="card-title">The Witcher 3</h5>
+              <p class="card-text">Sword of Destiny </p>
+              <audio controls class="sonzin">
+                <source src="soundtracks/The_Witcher_3.mp3" type="audio/mpeg">
+              </audio>
+            </div>
+          </div>
+
+          <div class="card">
+            <img class="card-img-top" src="https://i.scdn.co/image/ab67616d00001e0277ab46be7891af8431b7b4da" alt="Imagem de capa do card">
+            <div class="card-body">
+              <h5 class="card-title">Death Stranding</h5>
+              <p class="card-text">Sing to me</p>
+              <audio controls class="sonzin">
+                <source src="soundtracks/sing_to_me.mp3" type="audio/mpeg">
+              </audio>
+            </div>
+          </div>
+
+          <div class="card">
+            <img class="card-img-top" src="https://tecnoblog.net/wp-content/uploads/2020/08/fall-guys-review.jpg" alt="Imagem de capa do card">
+            <div class="card-body">
+              <h5 class="card-title">Fall Guys</h5>
+              <p class="card-text">Everybody Falls</p>
+              <audio controls class="sonzin">
+                <source src="soundtracks/Fall_Guys.mp3" type="audio/mpeg">
+              </audio>
+            </div>
+          </div>
+
+        </div>    
+        <div class="playlist">
+
+        <div class="card">
+          <img class="card-img-top" src="https://images-na.ssl-images-amazon.com/images/I/81LXUOTmcGL._AC_SX342_.jpg" alt="Imagem de capa do card">
+          <div class="card-body">
+            <h5 class="card-title">Rocket League</h5>
+            <p class="card-text">All i need</p>
+            <audio controls class="sonzin">
+              <source src="soundtracks/All_i_need.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+        </div>
+
+        <div class="card">
+          <img class="card-img-top" src="https://steamcdn-a.akamaihd.net/steam/apps/1091500/header.jpg?t=1603819555" alt="Imagem de capa do card">
+          <div class="card-body">
+            <h5 class="card-title">Cyberpunk 2077</h5>
+            <p class="card-text">Trailer Theme</p>
+            <audio controls class="sonzin">
+              <source src="soundtracks/cyberpunk_2077.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+        </div>
+
+        <div class="card">
+          <img class="card-img-top" src="https://steamcdn-a.akamaihd.net/steam/apps/552520/header.jpg?t=1602603037" alt="Imagem de capa do card">
+          <div class="card-body">
+            <h5 class="card-title">Far Cry 5</h5>
+            <p class="card-text">Our Country Made a Promise</p>
+            <audio controls class="sonzin">
+              <source src="soundtracks/our_country_made_a_promise_.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+
+        </div>
+
+      </div>
+    </main>
+    
+    
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPHOLSSSs5nCTpuj/zy4C+OGpamoFVy38MVBNE+IbbVYUEW+OrCXaRkfj" crossorigin="anonymous"></script>
+    
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.waypoints.min.js"></script>
+    <script type="text/javascript" src="js/jquery.scrollex.min.js"></script>
+    <script type="text/javascript" src="js/jquery.scrolly.min.js"></script>
+    
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2SOVKaIzap3H661ZH81PoY1FhbGU+6BZp6G7niu735sk71N" crossorigin="anonymous"></script>
+
+    <!--<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPHOLSSSs5nCTpuj/zy4C+OGpamoFVy38MVBNE+IbbVYUEW+OrCXaRkfj" crossorigin="anonymous"></script>-->
+
     <script type="text/javascript" src="js/bootstrap.bundle.js"></script>
-    <script type="text/javascript" src="js/bootstrap.js"></script>   
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/counterup.min.js"></script>
+    <script type="text/javascript" src="js/jquery.waypoints.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/scroll.js"></script>
+    
+    
+     
   </body>
 </html>
