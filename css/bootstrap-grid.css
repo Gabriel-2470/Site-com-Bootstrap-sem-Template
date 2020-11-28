@@ -57,6 +57,7 @@ html {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  flex-direction: row;
   margin-right: -15px;
   margin-left: -15px;
 }
